@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 # config valid for current version and patch releases of Capistrano
-lock '~> 3.12.1'
+lock '~> 3.17.1'
 
-set :application, 'production_demo'
-set :repo_url, 'git@github.com:Deanout/production_demo.git'
+set :application, 'test'
+set :repo_url, 'https://github.com/noaman-bacancy/production_demo.git'
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
