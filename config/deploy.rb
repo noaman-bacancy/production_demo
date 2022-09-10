@@ -13,7 +13,7 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bund
 
 # Only keep the last 5 releases to save disk space
 set :keep_releases, 5
-set :rvm_custom_path, "/usr/share/rvm"
+set :rvm_custom_path, "$HOME/.rvm"
 set :rvm_ruby_string, :local
 
 set :nvm_type, :user
