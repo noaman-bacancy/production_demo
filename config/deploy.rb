@@ -19,7 +19,8 @@ set :rvm_ruby_string, :local
 set :nvm_type, :user
 # Update to your node version
 set :nvm_node, "v12.22.12"
-set :nvm_map_bins, %w{node npm yarn}
+set :nvm_map_bins, %w{node npm yarn webpack rake}
+#set :nvm_map_bins, %w{node npm yarn}
 # Optionally, you can symlink your database.yml and/or secrets.yml file from the shared directory during deploy
 # This is useful if you don't want to use ENV variables
 # append :linked_files, 'config/database.yml', 'config/secrets.yml'
